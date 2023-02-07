@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fem-intro-to-go/05_toolkit/code/utils"
+	"fem-intro-to-go/05_toolkit/code/exercise_5a_solution/utils"
 	"fmt"
 )
 

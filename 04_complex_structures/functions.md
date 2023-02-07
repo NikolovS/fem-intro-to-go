@@ -10,6 +10,7 @@ func printAge(age int) int {
   return age
 }
 ```
+
 In the above function, we name the function `printAge()`, which expects an input
 type of an integer. The value between the closing argument parens and the opening
 curly brace is the type this function must return at the end of the day.
@@ -48,6 +49,7 @@ Note that when calling this function, in order to access both return values you
 also need to define two variables.
 
 ## Exercise 4a: Functions
+
 `exercise_4a_functions.md`
 
 ## Variadic Function
@@ -73,6 +75,7 @@ will talk about shortly.
 Note that the variadic parameter must be the last on in the argument list.
 
 ## Exercise 4b: Refactor Functions
+
 `exercise_4b_functions.md`
 
 ### Scope

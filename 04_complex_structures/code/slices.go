@@ -1,8 +1,8 @@
 package main
 
-// import "fmt"
+import "fmt"
 
-// func main() {
+func main() {
 
 // 	var myArray [5]int
 // 	var mySlice []int
@@ -38,12 +38,36 @@ package main
 
 // 	// ***************************
 
-// 	// fruitArray := [5]string{"banana", "pear", "apple", "kumquat", "peach"}
+	// fruitArray := [5]string{"banana", "pear", "apple", "kumquat", "peach"}
 
-// 	// var splicedFruit []string = fruitArray[1:3] // ==> ["pear", "apple",]
+	// var splicedFruit []string = fruitArray[1:3] // ==> ["pear", "apple",]
 
-// 	// fmt.Println(len(splicedFruit))
-// 	// fmt.Println(cap(splicedFruit))
+	// totalFruid := append(splicedFruit, "sol", "pepper", "mqy","bau", "sol" , "test" , "12ds","[[dsa")
+	
+	// fmt.Println(fruitArray)
+	// fmt.Println(splicedFruit)
+	// fmt.Println(len(splicedFruit))
+	// fmt.Println(cap(splicedFruit))
+	// fmt.Println("------------------------------")
+	// fmt.Println(totalFruid)
+	// fmt.Println(len(totalFruid))
+	// fmt.Println(cap(totalFruid))
+    var myArray [5]int
+    // var mySlice []int = make([]int, 5)
+    var mySlice []int = make([]int, 5, 10)
+    // var mySlice = make([]int, 5)
+
+    myArray[0] = 1
+    mySlice[0] = 2
+
+    fmt.Println(myArray)
+    fmt.Println(mySlice)
+    fmt.Println(len(mySlice))
+    fmt.Println(cap(mySlice))
+	fmt.Println(len(myArray))
+	fmt.Println(cap(myArray))
+
+
 
 // 	// ***************************
 
@@ -68,4 +92,4 @@ package main
 // 	// mysteryValue := copy(destination, originalSlice)
 
 // 	// // fmt.Println("After Copy:", originalSlice, destination, mysteryValue)
-// }
+ }

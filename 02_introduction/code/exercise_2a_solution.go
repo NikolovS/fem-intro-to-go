@@ -2,9 +2,9 @@
 
 // import "fmt"
 
-// // Note: only uncomment one main() function at a time when testing
+// Note: only uncomment one main() function at a time when testing
 
-// // Part One
+// Part One
 // func main() {
 // 	fmt.Println("Hello World")
 // }
